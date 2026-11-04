@@ -1,0 +1,19 @@
+# 测试依赖（按 Day 逐步安装，不要一次全装）
+# 安装：python -m pip install -r requirements.txt
+
+# --- Day 14 起：接口测试 ---
+pytest>=8.0
+requests>=2.31
+PyYAML>=6.0
+pytest-html>=4.1
+allure-pytest>=2.13
+
+# --- Day 17 起：执行效率与报告 ---
+pytest-xdist>=3.5
+pytest-rerunfailures>=13.0
+
+# --- Day 18 起：UI 自动化 ---
+selenium>=4.20
+
+# --- 造数据用 ---
+Faker>=25.0

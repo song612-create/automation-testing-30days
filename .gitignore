@@ -1,0 +1,44 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---------- 虚拟环境 ----------
+venv/
+.venv/
+env/
+ENV/
+
+# ---------- 测试产物 ----------
+.pytest_cache/
+.coverage
+htmlcov/
+report/
+allure-results/
+allure-report/
+*.log
+screenshots/
+test-results/
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 临时文件 ----------
+~$*
+*.tmp
+*.bak
